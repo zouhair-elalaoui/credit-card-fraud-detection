@@ -1,0 +1,17 @@
+# Data manipulation
+numpy
+pandas
+
+# Data visualization
+matplotlib
+seaborn
+
+# Machine learning and model evaluation
+scikit-learn
+
+# Class imbalance handling: SMOTE and Random Undersampling
+imbalanced-learn
+
+# Jupyter Notebook
+jupyter
+ipykernel
