@@ -76,8 +76,7 @@ Because fraudulent transactions represent only a very small fraction of the data
 ## Repository Contents
 
 - `projet_CCFD1_CodeSource.ipynb` — Jupyter Notebook containing the data analysis, preprocessing, model training, and evaluation.
-- `Credit_Card_Fraud_Detection.pdf` — Project report describing the methodology, experiments, results, and conclusions.
-- `README.md` — Project documentation.
+- `Credit_Card_Fraud_Detection.pdf` — Project [Report](Credit_Card_Fraud_Detection.pdf) describing the methodology, experiments, results, and conclusions.
 - `requirements.txt` — Python dependencies required to reproduce the project.
 
 ## Team Members
