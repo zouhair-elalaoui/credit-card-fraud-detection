@@ -1,47 +1,95 @@
-# Credit Card Fraud Detection
+# Data Science Salary Analysis
 
-## Overview
+## Project Overview
 
-This project explores the use of machine learning to detect fraudulent credit card transactions and distinguish them from legitimate payments.
+This project explores salary trends in the Data Science and Artificial Intelligence job market using data visualization techniques. It investigates how salaries vary according to professional experience, employment type, company size, geographical location, remote work, and year.
 
-## How It Works
+The project was developed as part of an academic assignment in the Big Data and Artificial Intelligence program at the École Nationale des Sciences Appliquées de Tétouan.
 
-1. **Data Preprocessing** — Prepare transaction data for model training.
-2. **Model Training** — Train and compare machine learning models for fraud detection.
-3. **Evaluation** — Assess model performance using classification metrics suited to an imbalanced dataset.
-4. **Prediction** — Use the trained model to identify potentially fraudulent transactions.
+## Objectives
 
-## Results & Performance
+- Analyze the distribution of salaries in Data Science.
+- Explore the relationship between salaries and professional experience.
+- Compare salaries across employment types and company sizes.
+- Investigate geographical differences in salaries.
+- Study salary trends over time.
+- Apply multivariate visualization and dimensionality reduction techniques.
+- Extract insights to support data-driven decision-making.
 
-**Random Forest** achieved the strongest overall performance in the project report.
+## Dataset
 
-| Metric | Score |
-|:--|--:|
-| Accuracy | 99.95% |
-| Precision | 84.69% |
-| Recall | 84.69% |
-| F1-score | 84.69% |
-| ROC-AUC | 96.80% |
+- **Source:** Kaggle
+- **Dataset:** Data Science Job Salaries
+- **Observations:** 607
+- **Variables:** 12
 
-On the test set, the model detected **83 out of 98 fraudulent transactions**, while missing 15.
+Dataset link: [Data Science Job Salaries on Kaggle](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries)
 
-Since fraudulent transactions represent a very small fraction of the dataset, accuracy alone is not sufficient to evaluate model quality. Precision, recall, F1-score, and ROC-AUC provide a more informative assessment.
+## Methodology
 
-These results are based on the project report and do not guarantee performance on real-world transactions.
+### 1. Univariate Analysis
+Explore individual variables using histograms, bar charts, boxplots, violin plots, and Pareto charts.
 
-For the complete methodology, model comparison, and detailed results, see the [**Project Report**](Credit_Card_Fraud_Detection.pdf).
+### 2. Bivariate Analysis
+Investigate relationships between salary and other variables, including experience level, employment type, company size, remote work ratio, and work year.
+
+### 3. Multivariate Analysis
+Use scatter plots, pairplots, correlation heatmaps, boxplots, violin plots, and parallel coordinates to study relationships between multiple variables.
+
+### 4. Dimensionality Reduction
+Apply Principal Component Analysis (PCA) to represent the data in two and three dimensions.
+
+### 5. Temporal Analysis
+Analyze salary trends, compare time series, smooth curves, detect anomalies, and examine changes between 2020 and 2022.
+
+### 6. Geospatial Analysis
+Visualize salary distributions and employment patterns across countries using geographical maps.
+
+### 7. Geotemporal Analysis
+Compare geographical salary patterns across different years.
+
+## Key Findings
+
+According to the project report:
+
+- Professional experience is a major factor associated with salary differences.
+- Senior and Executive professionals generally earn higher salaries.
+- Salary levels vary across countries, with the United States appearing as a leading market in the analyzed dataset.
+- Full-time employment represents the majority of observations.
+- The analysis shows an overall upward salary trend between 2020 and 2022.
+- PCA explains approximately 72.78% of the variance with two components and approximately 100% with three components, based on the report.
+
+These findings describe the dataset analyzed and should not be interpreted as universal rules for the entire job market.
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Plotly and other visualization tools used in the notebook, where applicable
+
+## Repository Contents
+
+- `Projet_DataVisualisation.ipynb` — notebook containing the data analysis and visualizations.
+- `data_visualisation.pdf` — academic report describing the methodology, visualizations, findings, and conclusions.
+- `requirements.txt` — Python dependencies needed to run the notebook.
 
 ## Team Members
 
 - EL ALAOUI SALEH Zouhair
 - GHOULAM Nouhaila
-- BENSALAH Aya
 - PROBI Nouhaila
+- FERGANI Insaf
+- HADI Sara
 
-**Supervisor:** Pr. ATTAOUI Naoual
+**Supervisor:** Pr. BOUKROUH Ikhlass
 
 **Academic Year:** 2025–2026
 
 ## Purpose
 
-This project was completed for academic purposes to apply machine learning techniques to credit card fraud detection, explore strategies for handling imbalanced datasets, and evaluate classification models to identify fraudulent transactions more effectively.
+This project was completed for academic purposes to demonstrate the use of data visualization techniques for exploring and understanding a real-world dataset.
