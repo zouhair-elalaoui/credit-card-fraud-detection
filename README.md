@@ -29,7 +29,7 @@ Since fraudulent transactions represent a very small fraction of the dataset, ac
 
 These results are based on the project report and do not guarantee performance on real-world transactions.
 
-For the complete methodology, model comparison, and detailed results, see the [**Project Report**](REPORT_FILE.pdf).
+For the complete methodology, model comparison, and detailed results, see the [**Project Report**](Credit_Card_Fraud_Detection.pdf).
 
 ## Team Members
 
